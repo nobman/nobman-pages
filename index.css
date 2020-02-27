@@ -1,4 +1,6 @@
 header{
+  border:solid 400px;
+  color: white;
   background: linear-gradient(45deg,blue,green);
   text-align: center;
 }
