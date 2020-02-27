@@ -1,34 +1,39 @@
+header{
+  background: linear-gradient(45deg,blue,green);
+}
+
+
 h1{
   text-align: center;
 }
 
 h2.About{
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid red;
   margin-bottom: 0.7em;
 }
 
 h2.Profile{
-  border-bottom: 1px solid blue;
+  border-bottom: 2px solid blue;
   margin-bottom: 0.7em;
 }
 
 h2.Skills{
-  border-bottom: 1px solid green;
+  border-bottom: 2px solid green;
   margin-bottom: 0.7em;
 }
 
 h2.Works{
-  border-bottom: 1px solid purple;
+  border-bottom: 2px solid purple;
   margin-bottom: 0.7em;
 }
 
 h2.Contact{
   text-decoration: none;
-  border-bottom: 1px solid lightblue;
+  border-bottom: 2px solid lightblue;
   margin-bottom: 0.7em;
 }
 
 h2.History{
-  border-bottom: 1px solid greenyellow;
+  border-bottom: 2px solid greenyellow;
   margin-bottom: 0.7em;
 }
