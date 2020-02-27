@@ -19,6 +19,12 @@ h2.Works{
 }
 
 h2.Contact{
+  text-decoration: none;
   border-bottom: 1px solid lightblue;
+  margin-bottom: 0.7em;
+}
+
+h2.History{
+  border-bottom: 1px solid greenyellow;
   margin-bottom: 0.7em;
 }
