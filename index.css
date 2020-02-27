@@ -1,11 +1,8 @@
 header{
   background: linear-gradient(45deg,blue,green);
-}
-
-
-h1{
   text-align: center;
 }
+
 
 h2.About{
   border-bottom: 2px solid red;
