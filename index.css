@@ -1,15 +1,19 @@
 h2.About{
   border-bottom: 1px solid red;
+  margin-bottom: 0.7em;
 }
 
 h2.Profile{
   border-bottom: 1px solid blue;
+  margin-bottom: 0.7em;
 }
 
 h2.Skills{
   border-bottom: 1px solid green;
+  margin-bottom: 0.7em;
 }
 
 h2.Works{
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid purple;
+  margin-bottom: 0.7em;
 }
