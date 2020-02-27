@@ -17,3 +17,8 @@ h2.Works{
   border-bottom: 1px solid purple;
   margin-bottom: 0.7em;
 }
+
+h2.Contact{
+  border-bottom: 1px solid lightblue;
+  margin-bottom: 0.7em;
+}
