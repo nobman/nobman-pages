@@ -1,5 +1,5 @@
 header{
-  border:solid 0px;
+  height: auto;
   background: linear-gradient(45deg,rgb(0, 128, 255),rgb(0, 255, 128));
   text-align: center;
 }
