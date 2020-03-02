@@ -1,12 +1,13 @@
 header{
-  height: 200px;
+  height: 250px;
   background: linear-gradient(45deg,rgb(0, 128, 255),rgb(0, 255, 128));
   text-align: center;
 }
 
 .divheader{
-  height: 120px;
+  height: 100px;
   display: table-cell;
+  text-align: center;
   vertical-align: middle;
 }
 
