@@ -4,6 +4,11 @@ header{
   text-align: center;
 }
 
+.divheader{
+  height: 80px;
+  background-color: rgb(80, 80, 80);
+}
+
 
 .headerletter{
   color: white;
