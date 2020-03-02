@@ -5,8 +5,9 @@ header{
 }
 
 .divheader{
-  height: 80px;
-  background-color: rgb(80, 80, 80);
+  height: 120px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
