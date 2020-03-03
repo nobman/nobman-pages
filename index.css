@@ -16,10 +16,11 @@ header{
 
 div.Toplink{
   background-color: black;
+  text-align: center;
 }
 a.Toplink{
+  font-size: 35px;
   text-decoration: none;
-  text-align: center;
   color: white;
 }
 
