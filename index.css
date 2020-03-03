@@ -21,8 +21,9 @@ div.Toplink{
   justify-content: space-evenly;
   background-color: black;
 }
-h3.Toplink{
-  height: 120px;
+p.Toplink{
+  font-size: 40px;
+  text-align: center;
 }
 a.Toplink{
   text-decoration: none;
