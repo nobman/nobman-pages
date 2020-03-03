@@ -18,8 +18,11 @@ div.Toplink{
   background-color: black;
   text-align: center;
 }
+h3.Toplink{
+text-align: justify;
+text-justify: inter-ideograph;
+}
 a.Toplink{
-  font-size: 35px;
   text-decoration: none;
   color: white;
 }
