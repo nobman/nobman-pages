@@ -15,12 +15,14 @@ header{
 }
 
 div.Toplink{
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: black;
-  text-align: center;
 }
 h3.Toplink{
-text-align: justify;
-text-justify: inter-ideograph;
+  height: 120px;
 }
 a.Toplink{
   text-decoration: none;
