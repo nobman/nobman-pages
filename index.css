@@ -15,15 +15,11 @@ header{
 }
 
 div.Toplink{
-  height: 120px;
+  height: 65px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: black;
-}
-p.Toplink{
-  font-size: 40px;
-  text-align: center;
 }
 a.Toplink{
   text-decoration: none;
