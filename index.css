@@ -15,11 +15,9 @@ header{
 }
 
 div.Toplink{
-  height: 65px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   background-color: black;
 }
 a.Toplink{
