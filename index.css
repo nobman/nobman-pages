@@ -45,6 +45,12 @@ h2.Works{
   margin-bottom: 0.7em;
 }
 
+img{
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+}
+
 h2.Contact{
   text-decoration: none;
   border-bottom: 2px solid lightblue;
