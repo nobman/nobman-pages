@@ -51,6 +51,10 @@ img{
   height: auto;
 }
 
+p.Environment{
+  font-size: 15px;
+}
+
 h2.Contact{
   text-decoration: none;
   border-bottom: 2px solid lightblue;
