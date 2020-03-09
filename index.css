@@ -17,18 +17,18 @@ header{
 div.Toplink{
   display: flex;
   justify-content: space-around;
+  background-color: black;
 }
 a.Toplink{
   text-decoration: none;
   font-size: 25px;
   color: white;
-  background-color: black;
+}
+a.Toplink:hover{
+  background-color: white;
+  color: black;
 }
 
-a.Toplink::selection{
-  background-color: blue;
-  color: rebeccapurple;
-}
 
 h2.About{
   border-bottom: 2px solid red;
