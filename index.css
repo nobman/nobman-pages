@@ -23,6 +23,7 @@ a.Toplink{
   text-decoration: none;
   font-size: 25px;
   color: white;
+  transition: all 0.3s ease 0s;
 }
 a.Toplink:hover{
   background-color: white;
