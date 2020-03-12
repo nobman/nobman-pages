@@ -17,7 +17,6 @@ header{
 div.Toplink{
   display: flex;
   justify-content: space-around;
-  height: auto;
   background-color: black;
 }
 a.Toplink{
