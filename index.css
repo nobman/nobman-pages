@@ -17,17 +17,11 @@ header{
 div.Toplink{
   display: flex;
   justify-content: space-around;
+  height: auto;
   background-color: black;
 }
 a.Toplink{
-  box-sizing: border-box;
-  vertical-align: middle;
   text-decoration: none;
-  width: 12%;
-  margin-right: 2%;
-  margin-left: 2%;
-  padding-right: 2%;
-  padding-left: 2%;
   font-size: 25px;
   color: white;
   transition: all 0.3s ease 0s;
