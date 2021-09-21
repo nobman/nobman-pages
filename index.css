@@ -55,10 +55,52 @@ h3.Works{
   color: rgb(0, 112, 112);
 }
 
+div.Worksimage{
+  display: flex;
+}
+
+div.WorksAll input[type="radio"]{
+  display: none;
+}
+
+.content_class{
+  display: none;
+  transition: 0.8s;
+}
+
+#work1:checked ~ #Clickerwork,
+#work2:checked ~ #Fightgame,
+#work3:checked ~ #Roguelike,
+#work4:checked ~ #Bicycle,
+#work5:checked ~ #Alley,
+#work6:checked ~ #Ruins,
+#work7:checked ~ #CharaModel{
+  display: block;
+}
+
+/*div.Clickerwork{
+  border: 1px solid #ddd;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  background:  #000;
+}
+div.Clickerwork img{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+div.Clickwork:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}*/
+
 img{
   width: 50%;
-  max-width: 50%;
+  max-width: 33%;
   height: auto;
+  max-width: 33%;
 }
 
 p.Environment{
