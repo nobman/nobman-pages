@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Github Page Test</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <title>Github Page Test</title>
 </head>
 
 <header>
-  <div class="divheader">
-    <h1 class="headerletter">kinokoのポートフォリオサイト</h1>
-  </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="divheader">
+        <h1 class="headerletter">kinokoのポートフォリオサイト</h1>
+    </div>
 </header>
 
 <body>
-  <script type="text/javascript" src="from.js"></script>
   <div class="Toplink">
       <a href="#profile" class="Toplink">Profile</a>
       <a href="#skills" class="Toplink">Skills</a>
@@ -28,150 +24,175 @@
       <a href="#contact" class="Toplink">Contact</a>
       <a href="#history" class="Toplink">History</a>
   </div>
-  <h2 class="About">About</h2>
-  <p>Unityやってます。</p>
-  <p>webプログラミングもやっていきたいと考えてます。</p>
-
-  <h2 class="Profile" id="profile">Profile</h2>
-  <p>- kinokoです。 <br>
-     - 17歳 <br>
-     - 大阪に住んでいます。 <br>
-     - Unityやってます。<br>
-     - Blenderもある程度やってます。
-    </p>
-
-  <h2 class="Skills" id="skills">Skills</h2>
-  <p>- macで作ってます <br> 
-     - Python3 少々 <br>
-     - UnityC# 少々 <br>
-     - Blender 少々 <br>
-    </p>
-
-  <h2 class="Works" id="works">Works</h2>
-
-  <div class="WorksAll">
-    <div class="Worksimage">
-      <input id="work1" name="ClickBtn" type="radio" value="1" onclick="radioDeselection(this, 1)">
-      <label class="Works_class" for="work1">
-        <img src="/nobman-pages/Pics/Clicker.png"ty alt="クリッカーゲームの画像">
-      </label>
-    
-      <input id="work2" name="ClickBtn" type="radio" value="2" onclick="radioDeselection(this, 2)">
-      <label class="Works_class" for="work2">
-        <img src="/nobman-pages/Pics/Fight.png" alt="格闘ゲームの画像">
-      </label>
-
-      <input id="work3" name="ClickBtn" type="radio" value="3" onclick="radioDeselection(this, 3)">
-      <label class="Works_class" for="work3">
-        <img src="/nobman-pages/Pics/Roguelike.png" alt="ローグライクゲームの画像">
-      </label>
-
-      <input id="work4" name="ClickBtn" type="radio" value="4" onclick="radioDeselection(this, 4)">
-      <label class="Works_class" for="work4">
-        <img src="/nobman-pages/Pics/Bicycle.png" alt="自転車の画像">
-      </label>
-
-      <input id="work5" name="ClickBtn" type="radio" value="5" onclick="radioDeselection(this, 5)">
-      <label class="Works_class" for="work5">
-        <img src="/nobman-pages/Pics/Alley.png" alt="路地裏の画像">
-      </label>
-
-      <input id="work6" name="ClickBtn" type="radio" value="6" onclick="radioDeselection(this, 6)">
-      <label class="Works_class" for="work6">
-        <img src="/nobman-pages/Pics/Ruins.png" alt="廃墟の画像">
-      </label>
-
-      <input id="work7" name="ClickBtn" type="radio" value="7" onclick="radioDeselection(this, 7)">
-      <label class="Works_class" for="work7">
-        <img src="/nobman-pages/Pics/CharaModel.png" alt="キャラモデルの画像">
-      </label>
-    </div>
-    
-    <!-- ここからが選択時に表示されるコンテンツ(divごとに一つのブロック) -->
-    <div class="content_class" id="Clickerwork">
-      <h3 class="Works">クリッカーゲーム</h3>
-      <p class="Environment">開発環境: Unity(Ver 2019.1.1f1)</p>
-    </div>
-
-    <div class="content_class" id="Fightgame">
-      <h3 class="Works">ス○ブラ風格闘ゲーム</h3>
-      <p class="Environment">開発環境: Unity(Ver 2019.1.1f1)</p>
-    </div>
-
-    <div class="content_class" id="Roguelike">
-      <h3 class="Works">簡易的なローグライクゲーム</h3>
-      <p class="Environment">開発環境: Unity(Ver 2019.2.11f1)</p>
-    </div>
-
-    <div class="content_class" id="Bicycle">
-      <h3 class="Works">自転車の3Dモデル</h3>
-      <p class="Environment">開発環境: Blender(Ver 2.8.2)</p>
-    </div>
-
-    <div class="content_class" id="Alley">
-      <h3 class="Works">路地裏の風景画</h3>
-      <img src="/nobman-pages/Pics/AlleyRain.png" alt="雨の降っている路地裏の画像">
-      <p class="Environment">開発環境: Blender(Ver 2.8.2)</p>
-    </div>
-
-    <div class="content_class" id="Ruins">
-      <h3 class="Works">ネオンな廃墟</h3>
-      <p class="Enviroment">CGWORLD Who's NEXT? 応募作品</p>
-      <p class="Enviroment">開発環境: Blender(Ver 2.8.2)</p>
-    </div>
-
-    <div class="content_class" id="CharaModel">
-      <h3 class="Works">3Dキャラモデル</h3>
-      <p class="Environment">開発環境: Blender(Ver 2.8.2)、Unity(Ver 2019.4.29f1)</p>
-    </div>
-
+  <div class="AboutArea">
+    <h2 class="About">About</h2>
+    <p>Unityやってます。</p>
+    <p>webプログラミングもやっていきたいと考えてます。</p>
   </div>
-  <br>
-  <br>
-<!-- 
-  <h3 class="Works">ス○ブラ風格闘ゲーム</h3>
-  <img src="/nobman-pages/Pics/Fight.png" alt="格闘ゲームの画像" width="500" height="300">
-  <p class="Environment">開発環境: Unity(Ver 2019.1.1f1)</p>
-  <br>
-  <br>
 
-  <h3 class="Works">簡易的なローグライクゲーム</h3>
-  <img src="/nobman-pages/Pics/Roguelike.png" alt="ローグライクゲームの画像" width="500" height="300">
-  <p class="Environment">開発環境: Unity(Ver 2019.2.11f1)</p>
-  <br>
-  <br>
+  <div class="ProfileArea">
+    <h2 class="Profile" id="profile">Profile</h2>
+    <p>- kinokoです。 <br>
+       - 18歳 <br> 
+       - 大阪に住んでいます。 <br> 
+       - Unityやってます。<br> 
+       - Blenderもある程度やってます。
+    </p>
+  </div>
 
-  <h3 class="Works">自転車の3Dモデル</h3>
-  <img src="/nobman-pages/Pics/bicycle.png" alt="自転車の画像" width="500" height="300">
-  <p class="Environment">開発環境: Blender(Ver 2.8.2)</p>
-  <br>
-  <br>
+  <div class="SkillsArea">
+    <h2 class="Skills" id="skills">Skills</h2>
+    <p>- Python3 少々 <br> 
+       - UnityC# 少々 <br> 
+       - Blender 少々 <br>
+    </p>
+  </div>
 
-  <h3 class="Works">路地裏の風景画</h3>
-  <img src="/nobman-pages/Pics/Alley.png" alt="路地裏の画像" width="500" height="300">
-  <img src="/nobman-pages/Pics/AlleyRain.png" alt="雨の降っている路地裏の画像" width="500" height="300">
-  <p class="Environment">開発環境: Blender(Ver 2.8.2)</p>
+  <div class="WorksArea">
+    <h2 class="Works" id="works">Works</h2>
 
-  <h3 class="Works">ネオンな廃墟</h3>
-  <img src="/nobman-pages/Pics/ruins.png" alt="廃墟の画像" width="500" height="300">
-  <p class="Enviroment">CGWORLD Who's NEXT? 応募作品</p>
-  <p class="Enviroment">開発環境: Blender(Ver 2.8.2)</p>
+    <div class="WorksAll">
+      <div class="Divide">
+        <input id="work1" name="ClickBtn" type="radio" value="1" onclick="radioDeselection(this, 1)">
+        <label for="work1" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/Clicker.png" alt="クリッカーゲームの画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">クリッカーゲーム</div>
+            </div>
+          </div>
+        </label>
 
-  <h3 class="Works">3Dキャラモデル</h3>
-  <img src="/nobman-pages/Pics/CharaModel.png" alt="キャラモデルの画像" width="500" height="300">
-  <p class="Enviroment">開発環境: Blender(Ver 2.8.2)、Unity(Ver 2019.4.29f1)</p>
+        <input id="work2" name="ClickBtn" type="radio" value="2" onclick="radioDeselection(this, 2)">
+        <label for="work2" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/Fight.png" alt="格闘ゲームの画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">格闘ゲーム</div>
+            </div>
+          </div>
+        </label>
 
-   -->
-  <h3 class="Works"></h3>
+        <input id="work3" name="ClickBtn" type="radio" value="3" onclick="radioDeselection(this, 3)">
+        <label for="work3" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/Roguelike.png" alt="ローグライクゲームの画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">ローグライクゲーム</div>
+            </div>
+          </div>
+        </label>
 
-  <h2 class="Contact" id="contact">Contact</h2>
-  <a href="">何もないリンク</a>
+        <input id="work4" name="ClickBtn" type="radio" value="4" onclick="radioDeselection(this, 4)">
+        <label for="work4" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/Bicycle.png" alt="自転車の画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">自転車</div>
+            </div>
+          </div>
+        </label>
 
-  <h2 class="History" id="history">History</h2>
-  <p>まだないです</p>
+        <input id="work5" name="ClickBtn" type="radio" value="5" onclick="radioDeselection(this, 5)">
+        <label for="work5" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/Alley.png" alt="路地裏の画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">風景画</div>
+            </div>
+          </div>
+        </label>
 
-  <script>
-    console.log("portfolio");
-  </script>
+        <input id="work6" name="ClickBtn" type="radio" value="6" onclick="radioDeselection(this, 6)">
+        <label for="work6" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/Ruins.png" alt="廃墟の画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">ネオンな廃墟</div>
+            </div>
+          </div>
+        </label>
+
+        <input id="work7" name="ClickBtn" type="radio" value="7" onclick="radioDeselection(this, 7)">
+        <label for="work7" class="works_class">
+          <div class="WorksEach">
+            <img src="/nobman-pages/Pics/CharaModel.png" alt="キャラモデルの画像" class="Selectedimage">
+            <div class="mask">
+              <div class="caption">3Dキャラモデル</div>
+            </div>
+          </div>
+        </label>
+
+      </div>
+
+    <!-- ここからが選択時に表示されるコンテンツ(divごとに一つのブロック) -->
+      <div class="content_class" id="Clickerwork">
+        <h3 class="Works">クリッカーゲーム</h3>
+        <img src="/nobman-pages/Pics/Clicker.png" alt="クリッカーゲームの画像">
+
+        <p class="Environment">開発環境: Unity(Ver 2019.1.1f1)</p>
+      </div>
+
+      <div class="content_class" id="Fightgame">
+        <h3 class="Works">ス○ブラ風格闘ゲーム</h3>
+        <img src="/nobman-pages/Pics/Fight.png" alt="格闘ゲームの画像">
+
+        <p class="Environment">開発環境: Unity(Ver 2019.1.1f1)</p>
+      </div>
+
+      <div class="content_class" id="Roguelike">
+        <h3 class="Works">簡易的なローグライクゲーム</h3>
+        <img src="/nobman-pages/Pics/Roguelike.png" alt="ローグライクゲームの画像">
+
+        <p class="Environment">開発環境: Unity(Ver 2019.2.11f1)</p>
+      </div>
+
+      <div class="content_class" id="Bicycle">
+        <h3 class="Works">自転車の3Dモデル</h3>
+        <img src="/nobman-pages/Pics/Bicycle.png" alt="自転車の画像">
+
+        <p class="Environment">開発環境: Blender(Ver 2.8.2)</p>
+      </div>
+
+      <div class="content_class" id="Alley">
+        <h3 class="Works">路地裏の風景画</h3>
+        <img src="/nobman-pages/Pics/AlleyRain.png" alt="雨の降っている路地裏の画像">
+
+        <p class="Environment">開発環境: Blender(Ver 2.8.2)</p>
+      </div>
+
+      <div class="content_class" id="Ruins">
+        <h3 class="Works">ネオンな廃墟</h3>
+        <img src="/nobman-pages/Pics/Ruins.png" alt="廃墟の画像">
+
+        <p class="Enviroment">CGWORLD Who's NEXT? 応募作品</p>
+        <p class="Enviroment">開発環境: Blender(Ver 2.8.2)</p>
+      </div>
+
+      <div class="content_class" id="CharaModel">
+        <h3 class="Works">3Dキャラモデル</h3>
+        <img src="/nobman-pages/Pics/CharaModel.png" alt="キャラモデルの画像">
+
+        <p class="Environment">開発環境: Blender(Ver 2.8.2)、Unity(Ver 2019.4.29f1)</p>
+      </div>
+
+    </div>
+
+    <h3 class="Works"></h3>
+  </div>
+  
+
+  <div class="ContactArea">
+    <h2 class="Contact" id="contact">Contact</h2>
+    <a href="https://github.com/nobman" target="_blank" rel="noopener noreferrer">Github</a>
+  </div>
+
+  <div class="HistoryArea">
+    <h2 class="History" id="history">History</h2>
+    <p>まだないです</p>
+  </div>
+
+  <script type="text/javascript" src="from.js"></script>
 </body>
+
 </html>

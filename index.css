@@ -1,120 +1,210 @@
-header{
-  height: 250px;
-  background: linear-gradient(45deg,rgb(0, 128, 255),rgb(0, 255, 128));
-  text-align: center;
+*{
+    margin: 0;
 }
 
-.divheader{
-  display: inline-block;
-  height: 80px;
+header {
+    display: flex;
+    justify-content: center; /*左右中央揃え*/
+    align-items: center; /*上下中央揃え*/
+    height: 250px;
+    background: linear-gradient(45deg, rgb(60, 128, 255), rgb(60, 255, 128));
+    text-align: center;
+}
+
+body{
+    font-family: "Sawarabi Gothic";
+    background-color: rgb(255, 255, 255);
+}
+
+.AboutArea{
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ProfileArea{
+    background-color: rgb(250, 250, 250);
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.SkillsArea{
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.WorksArea{
+    background-color: rgb(250, 250, 250);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ContactArea{
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.HistoryArea{
+    background-color: rgb(250, 250, 250);
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.divheader {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.headerletter {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: max(3.3vw, 32px);
+}
+
+div.Toplink {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+a.Toplink {
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+a.Toplink:hover {
+    background-color: white;
+    color: black;
+}
+
+h2.About {
+    color: rgb(192, 0, 0);
+    border-bottom: 2px;
+    margin-bottom: 0.7em;
+}
+
+h2.Profile {
+    color: rgb(0, 0, 192);
+    border-bottom: 2px;
+    margin-bottom: 0.7em;
+}
+
+h2.Skills {
+    color: rgb(0, 192, 0);
+    border-bottom: 2px;
+    margin-bottom: 0.7em;
+}
+
+h2.Works {
+    color: rgb(96, 0, 96);
+    border-bottom: 2px;
+    margin-bottom: 0.7em;
+}
+
+h3.Works {
+    color: rgb(0, 112, 112);
+    font-family: "ＭＳ ゴシック",sans-serif;
+}
+
+.works_class{
+    padding: 0px;
+    width: 25%;
+    height: 250px;
+    display: flex;
+} 
+
+.Selectedimage {
+    padding: 0px;
+    height: 400px; 
+    object-fit: cover;
+    border: none;
+}
+
+ 
+.WorksEach{
+    overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;	/* 相対位置指定 */
+}
+
+.WorksEach .caption{
+    font-size:		130%;
+	text-align: 	center;
+	padding-top:	80px;
+	color:			#fff;
+}
+
+.WorksEach .mask{
+    width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+
+.WorksEach:hover .mask{
+    opacity:  1;
+}
+
+input[type="radio"]:checked + label .mask{
+    opacity: 1;
+}
+
+.Divide{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.WorksAll input[type="radio"] {
+    display: none;
+}
+
+.content_class {
+    width: 100%;
+    margin: 0 -5px;
+    display: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+    background-color: rgb(235, 235, 235);
+    transition: 0.8s;
+}
+.content_class img{
+    width: 70%;
+    box-sizing: border-box;
 }
 
 
-.headerletter{
-  color: white;
+p.Environment {
+    margin-top: 0px;
+    font-size: 15px;
 }
 
-div.Toplink{
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-}
-a.Toplink{
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  transition: all 0.3s ease 0s;
-}
-a.Toplink:hover{
-  background-color: white;
-  color: black;
+h2.Contact {
+    text-decoration: none;
+    color: rgb(64, 96, 128);
+    border-bottom: 2px;
+    margin-bottom: 0.7em;
 }
 
-
-h2.About{
-  border-bottom: 2px solid red;
-  margin-bottom: 0.7em;
-}
-
-h2.Profile{
-  border-bottom: 2px solid blue;
-  margin-bottom: 0.7em;
-}
-
-h2.Skills{
-  border-bottom: 2px solid green;
-  margin-bottom: 0.7em;
-}
-
-h2.Works{
-  border-bottom: 2px solid purple;
-  margin-bottom: 0.7em;
-}
-
-h3.Works{
-  color: rgb(0, 112, 112);
-}
-
-div.Worksimage{
-  display: flex;
-}
-
-div.WorksAll input[type="radio"]{
-  display: none;
-}
-
-.content_class{
-  display: none;
-  transition: 0.8s;
-}
-
-#work1:checked ~ #Clickerwork,
-#work2:checked ~ #Fightgame,
-#work3:checked ~ #Roguelike,
-#work4:checked ~ #Bicycle,
-#work5:checked ~ #Alley,
-#work6:checked ~ #Ruins,
-#work7:checked ~ #CharaModel{
-  display: block;
-}
-
-/*div.Clickerwork{
-  border: 1px solid #ddd;
-  width: 500px;
-  height: 300px;
-  margin: 0 auto;
-  overflow: hidden;
-  background:  #000;
-}
-div.Clickerwork img{
-  width: 100%;
-  cursor: pointer;
-  transition-duration: 0.3s;
-}
-div.Clickwork:hover img{
-  opacity: 0.6;
-  transition-duration: 0.3s;
-}*/
-
-img{
-  width: 50%;
-  max-width: 33%;
-  height: auto;
-  max-width: 33%;
-}
-
-p.Environment{
-  margin-top: 0px;
-  font-size: 15px;
-}
-
-h2.Contact{
-  text-decoration: none;
-  border-bottom: 2px solid lightblue;
-  margin-bottom: 0.7em;
-}
-
-h2.History{
-  border-bottom: 2px solid greenyellow;
-  margin-bottom: 0.7em;
+h2.History {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px;
+    margin-bottom: 0.7em;
 }
